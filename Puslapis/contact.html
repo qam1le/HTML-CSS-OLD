@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Contacts</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    </head>
+    
+    <body class="body">
+        <header class="header"> </header>
+        <!--MENIU-->
+        <div class="sidenav">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="cyberpunk.html">Cyberpunk</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <!---->
+        <h1 class="h">EMAIL US</h1>
+        <p class="p">If you got any questions about items for sale or if you want us to order something that is out of stock, feel free to write us down bellow</p>
+        <!-------------------------FORMA-------------------------->
+        <form class="form"
+              action="mailto:qam1le@mail.lt"
+              method="post"
+              enctype="multipart/form-data"
+              name="emailForm">
+            Name:
+            <input type="text" size="20" name="Contact-Name" placeholder="Name" class="form"><br><br>
+            Email:
+            <input type="email" name="Contact-Email" placeholder="Email" class="form"><br><br>
+            Message:<br>
+            <textarea name="Contact-Message" rows="6" cols="20" placeholder="Message" class="form"></textarea><br>
+            <button class="btn" type="submit" value="Submit">Send</button>
+        </form>
+        <!------------------------------PARSISIUNCIAMAS FAILAS------------------------->
+        <p class="p">In order to return purchased goods make sure to fill out <a href="goods_return_form.docx" download style="color: #0ffa34"><b>this form</b></a></p>
+        
+        <footer class="foot">©qam1le, 2021<br>qam1le@mail.lt</footer>
+    </body>
+</html>

@@ -1,0 +1,216 @@
+/*----------------------Tinklapio-spalvos----------------------------*/
+.body {
+    background-color: black;
+    color: lawngreen;
+    font-size-adjust: auto;
+    width: 83%;
+    cursor: url(ui/cursor.png), default;
+    height: 100%;
+}
+/*-------------------------------MENIU-----------------------------*/
+.sidenav {
+    height: 100%; 
+    width: 15%; 
+    position: fixed; 
+    top: 0; 
+    right: 0;
+    background-color: #212121; 
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px; 
+    text-decoration: none; 
+    font-size: 25px; color: lime; 
+    display: block;
+}
+
+.sidenav a:hover{color: darkgreen;}
+
+.main {
+    margin-left: 0px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+    width: auto;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-image: url(ui/footer.jpg);
+    background-size: 100% 100%;
+}
+/*--------------------FOOTERIS-------------------------------*/
+.foot {
+    bottom: 0; 
+    cursor: url(ui/cursor.png), default;
+    text-align: center;
+    width: 100%;
+    /*position: sticky;*/
+}
+/*---------------------------SHOP-GRID--------------------------*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+    padding: 5px;
+}
+.grid-item {
+    background-color: none;
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #00fa9a;
+    text-align: left;
+}
+/*--------------------SRIFTAS-------------------------------*/
+@font-face {
+    font-family: future; 
+    src: url(font/FutureTechnoItalic-X3EPj.ttf);
+}
+/*--------------------HEADERS-------------------------------*/
+.h {
+    font-family: future;
+    font-size: 60px;
+}
+.h3 {
+    font-family: future;
+    font-size: 30px;
+    text-align: center;
+}
+.h6 {
+    font-family: future;
+    font-size: 20px;
+    text-align: center;
+}
+/*--------------------PARAGRAPH-------------------------------*/
+.p {
+    color: lawngreen;
+    font-family: sans-serif;
+}
+/*--------------------GRID-------------------------------*/
+.specialtext {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: black;
+    padding: 10px;
+    width: auto;
+    align-self: center;
+}
+.specialtext-item {
+    border-radius: 25px;
+    background-color: #00c708;
+    color: #53f35a;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+/*--------------------NUOTRAUKU-GALERIJA-------------------------------*/
+.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+    margin: 0px;
+    visibility:hidden;
+}
+
+div:hover .desc {
+    visibility:visible;
+}
+div.img img {
+    max-width:100%;
+}
+div.img {
+    margin: 5px;
+    padding:5px;
+    box-sizing:border-box;
+    background:#1bf824;
+    line-height:0px;
+    height: auto;
+    width: 20%;
+    float: left;
+    text-align: center;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease; 
+    -o-transition:all 0.5s ease; 
+    transition:all 0.5s ease;
+    border-radius:4px;
+    color: black;
+}	
+div:hover {
+    line-height:30px;
+    font-size:16px;
+    
+}
+div.img img {
+    display: inline;
+    margin: 3px;
+}
+
+.homegallery {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  align-content: center;
+}
+.hover {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+.zoompic:hover {
+    transform: scale(1.5);
+}
+/*--------------------KONTAKTU-FORMA-------------------------------*/
+.form {
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    border-color: chartreuse;
+}
+/*----------------------------------------------------------------*/
+.p {
+font-family: future;
+}
+/*--------------------MYGTUKO STILIUS-------------------------------*/
+.btn {
+    border-radius: 10px;
+    width: 324px;
+    height: 30px;
+    background-color: chartreuse;
+    border-color: forestgreen;
+}
+button:hover {
+    background-color: darkgreen;
+}
+/*--------------------LENTELES STILIUS-------------------------------*/
+.table, .td {
+    border: 2px solid green;
+    width: 100%;
+    border-collapse: collapse;
+}
+.th {
+    background-color: #038717;
+    color: #40ed5a;
+    font-weight: bold;
+    font-family: future;
+    border: 2px solid green;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+}
+/*--------------------FAQ LAYOUT-------------------------------*/
+.faq {
+    font-family: future;
+    background-color: #011400;
+    border-radius: 20px;
+    border: 2px solid green;
+}
+.space {
+    padding-top: 12%;
+}
